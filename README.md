@@ -230,7 +230,7 @@ def plot_loss_and_accuracy(results, final=False):
 plot_loss_and_accuracy(dense_model_results)
 ```
 
-## 5) Modify the Code Below to Use Regularization
+## 5) LEVEL UP Modify the Code Below to Use Regularization (Optional)
 
 
 The model appears to be overfitting. To deal with this overfitting, modify the code below to include regularization in the model. You can add L1, L2, both L1 and L2, or dropout regularization.
@@ -242,6 +242,7 @@ Hint: these might be helpful
  
 (`EarlyStopping` is a type of regularization that is not applicable to this problem framing, since it's a callback and not a layer.)
 
+Evaluation and Regularization of neural networks will be discussed in the future.
 
 ```python
 def build_model_with_regularization(n_input, n_output, activation, loss):
