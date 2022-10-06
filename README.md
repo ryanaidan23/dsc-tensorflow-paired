@@ -1,4 +1,4 @@
-# TensorFlow Checkpoint
+# TensorFlow Checkpoint (Paired Programming)
 
 This assessment covers building and training a `tf.keras` `Sequential` model, then applying regularization.  The dataset comes from a ["don't overfit" Kaggle competition](https://www.kaggle.com/c/dont-overfit-ii).  There are 300 features labeled 0-299, and a binary target called "target".  There are only 250 records total, meaning this is a very small dataset to be used with a neural network. 
 
